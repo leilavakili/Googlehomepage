@@ -58,5 +58,98 @@ nav button {
     display: block;
     margin-left: 41.3%;
     margin-top: 94px;
+}
+.search-b {
+    width: 590px;
+    margin: auto;
+    position: relative;
+    margin-top: -5px;
+    text-align: center;
+}
+.search-b .search-input {
+    background-color: transparent;
+    display: block;
+    border: 1px solid #ddd;
+    color: #202124;
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 50%;
+    border-radius: 22px;
+    width: 100%;
+}
+.search-b .search-input:hover {
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 3px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05)
+}
+.search-b .magnifier {
+    width: 20px;
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    opacity: 0.6;
+}
+.search-b .mic-icon {
+    width: 14px;
+    position: absolute;
+    top: 13px;
+    right: 60px;
+    cursor: pointer;
+}
+.search-b .lens-icon {
+    width: 18px;
+    position: absolute;
+    top: 14px;
+    right: 22px;
+    cursor: pointer;
+}
+.search-botton{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.search-botton:hover{
+    border: 1px solid #bfbfbf
+}
+footer{
+    
+    background: #f2f2f2;
 
+}
+footer a {
+    color: #5f6368;
+    display: inline-block;
+    padding: 12px 11.3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.links {
+    border-top: 1px solid #ddd;
+    display: flex;
+}
+.link-1{
+    padding-left: 18.7px;
+    flex: 1;
+}
+.link-2{
+    padding-right: 18.7px;
 }
