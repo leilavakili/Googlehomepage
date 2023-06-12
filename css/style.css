@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 14px 30px 0 0;
+}
+nav a{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 4oo;
+    color: #202124;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 1080px;
+
+}
