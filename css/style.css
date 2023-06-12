@@ -9,15 +9,31 @@ nav{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin: 14px 30px 0 0;
+    padding: 6px;
+    height: 60px;
 }
 nav a{
     display: inline-block;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 24px;
     font-weight: 4oo;
     color: #202124;
-
+    cursor: pointer;
+    padding: 5px 6.7px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+nav img{
+    width: 26px;
+    padding: 5px;
+    margin: 16px 10px 16px;
+    cursor: pointer;
+}
+nav img:hover {
+    background-color: black;
+    opacity: 50%;
+    border-radius: 50%;
 }
 body{
     display: flex;
