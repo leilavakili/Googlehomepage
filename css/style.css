@@ -88,12 +88,23 @@ nav button {
                 0 0 4px rgba(0, 0, 0, 0.05),
                 0 0 5px rgba(0, 0, 0, 0.05)
 }
+.search-b .search-input:active {
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 2px rgba(0, 0, 0, 0.05),
+                0 0 3px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05),
+                0 0 4px rgba(0, 0, 0, 0.05),
+                0 0 5px rgba(0, 0, 0, 0.05)
+}
 .search-b .magnifier {
     width: 20px;
     position: absolute;
     top: 15px;
     left: 14px;
     opacity: 0.6;
+    align-items: center;
 }
 .search-b .mic-icon {
     width: 14px;
@@ -101,6 +112,8 @@ nav button {
     top: 13px;
     right: 60px;
     cursor: pointer;
+    align-items: center;
+
 }
 .search-b .lens-icon {
     width: 18px;
@@ -108,6 +121,8 @@ nav button {
     top: 14px;
     right: 22px;
     cursor: pointer;
+    align-items: center;
+
 }
 .search-botton{
     background-color: #f8f9fa;
